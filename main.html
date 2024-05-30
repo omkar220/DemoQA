@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Element</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navn">
+        <h1> QA Tools</h1>
+    </nav>
+        
+    <div class="collapsible" >
+        <div class="header">Text Box</div>
+        <div class="  content "  >
+            <label for="textBox">Enter Name:</label>
+            <input type="text" id="name" class="namet" placeholder="Enter your full name"><br>
+            <br>
+            <label for="textBox">Enter Email:</label>
+            <input type="text" id="textBox" class="text-box" placeholder="Enter valid Emailid">
+            <button type="submit">submit</button>
+
+            </div>
+            </div>
+            
+            
+            <div class="collaps">
+                <div class="heading">Check Box</div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Indeterminate checkbox
+                    </label>
+                  </div>
+            </div>
+
+            <div class="collaps">
+                <div class="H2">Radio Button</div>
+                <div class="name-radio-container">
+                    <span class="name" onclick="showRadioButton('radio1')">Andriod</span>
+                    <input type="radio" id="radio1" name="person" class="hidden-radio">
+
+                    <span class="name" onclick="showRadioButton('radio1')">Iphone</span>
+                    <input type="radio" id="radio1" name="person" class="hidden-radio">
+                </div>
+            
+
+            </div>
+           
+            <div class="collaps">
+                <div class="H3">Buttons</div>
+                <div class="btn">
+                    <button>click me</button>
+                    <button>Demo</button>
+                </div>
+            
+
+            </div>
+
+            <div class="collaps">
+                <div class="H4">Link</div>
+                <div class="lnk">
+                    <a href="https://demoqa.com/links" class="lin">Demo link</a> <br>
+                    <a href="https://sqaguru.co.in/services/" class="lin">click me</a>
+                </div>
+            
+
+            </div>
+
+            <div class="collaps">
+                <div class="f">Forms</div>
+                <div class="signup-container">
+                    <form id="signupForm">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+            
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            
+            
+
+            </div>
+
+
+                    
+            
+        
+            
+                
+
+
+                
+              
+        
+
+        </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

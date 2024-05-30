@@ -1,0 +1,303 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:gray;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.navb,h3{
+    background-color:aqua;
+margin-top: 20px;
+text-align: center;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ .navn,h1{
+    margin-top: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-style: oblique;
+    font-size:70px
+
+    
+ }
+ .collapsible {
+    width: 13rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.header {
+    padding: 15px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ccc;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.text-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.hidden-checkbox {
+    display: none;
+}
+
+.name {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.collaps {
+    width: 25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.heading {
+    padding: 15px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.form-check {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ccc;
+}
+
+.collaps {
+    width: 25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.H2 {
+    padding: 15px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.name-radio-container {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ccc;
+}
+.collaps {
+    width: 25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.H3 {
+    padding: 15px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ccc;
+}
+
+.collaps {
+    width: 13rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.H4 {
+    padding: 15px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.lnk {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ccc;
+}
+
+
+.collaps {
+    width: 13rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.f {
+    padding: 15px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.signup-container {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.card-title{
+    background-color: #007BFF;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+ .mayghal{
+
+    justify-content: center;
+    display: flex;
+ }
+ .img-thumbnail{
+    margin-top: 25px;
+
+    align-items: center;
+ }
+
+
